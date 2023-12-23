@@ -1,0 +1,14 @@
+---
+- name: Converge
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: ansible-role-bareos_webui
+      bareos_webui_directors:
+        - name: localhost-dir
+          enabled: yes
+          diraddress: localhost
+        - name: disabled-dir
+          enabled: no
