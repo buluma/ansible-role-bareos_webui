@@ -20,10 +20,10 @@ galaxy_info:
     - name: Fedora
       versions:
         - "38"
+        - "39"
     - name: Ubuntu
       versions:
         - jammy
-        - focal
 
   galaxy_tags:
     - backup
