@@ -1,10 +1,10 @@
-# Ansible role [bareos_webui](https://galaxy.ansible.com/ui/standalone/roles/buluma/bareos_webui/documentation)
+# [Ansible role bareos_webui](#ansible-role-bareos_webui)
 
 Install and configure [Bareos](https://www.bareos.com/) WebUI on your system.
 
-|GitHub|Version|Issues|Pull Requests|Downloads|
-|------|-------|------|-------------|---------|
-|[![github](https://github.com/buluma/ansible-role-bareos_webui/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_webui/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_webui.svg)](https://github.com/buluma/ansible-role-bareos_webui/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_webui.svg)](https://github.com/buluma/ansible-role-bareos_webui/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_webui.svg)](https://github.com/buluma/ansible-role-bareos_webui/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/bareos_webui)](https://galaxy.ansible.com/ui/standalone/roles/buluma/bareos_webui/documentation)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/buluma/ansible-role-bareos_webui/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bareos_webui/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-bareos_webui/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bareos_webui)|[![downloads](https://img.shields.io/ansible/role/d/buluma/bareos_webui)](https://galaxy.ansible.com/buluma/bareos_webui)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_webui.svg)](https://github.com/buluma/ansible-role-bareos_webui/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -67,17 +67,16 @@ bareos_webui_directors: []
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | Version |
+| Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.bareos_repository](https://galaxy.ansible.com/buluma/bareos_repository)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bareos_repository/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_repository/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_repository.svg)](https://github.com/shadowwalker/ansible-role-bareos_repository)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bareos_repository](https://galaxy.ansible.com/buluma/bareos_repository)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bareos_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bareos_repository/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bareos_repository/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bareos_repository)|
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
+This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
-
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-bareos_webui/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -86,27 +85,24 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Debian](https://hub.docker.com/r/buluma/debian)|bookworm, bullseye, buster|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8, 9|
-|[Fedora](https://hub.docker.com/r/buluma/fedora)|38, 39|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|jammy|
+|[Debian](https://hub.docker.com/r/buluma/debian)|all|
+|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
+|[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done on:
 
 - The previous version.
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-bareos_webui/issues)
-
-## [Changelog](#changelog)
-
-[Role History](https://github.com/buluma/ansible-role-bareos_webui/blob/master/CHANGELOG.md)
+If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-bareos_webui/issues).
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-bareos_webui/blob/master/LICENSE)
+[Apache-2.0](https://github.com/buluma/ansible-role-bareos_webui/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
-[Shadow Walker](https://buluma.github.io/)
+[buluma](https://buluma.github.io/)
+
