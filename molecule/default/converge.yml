@@ -1,14 +1,14 @@
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.bareos_webui
-        bareos_webui_directors:
-          - name: localhost-dir
-            enabled: true
-            diraddress: localhost
-          - name: disabled-dir
-            enabled: false
+  roles:
+  - role: buluma.bareos_webui
+    bareos_webui_directors:
+    - name: localhost-dir
+      enabled: true
+      diraddress: localhost
+    - name: disabled-dir
+      enabled: false
