@@ -52,9 +52,9 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for bareos_webui
 
 bareos_webui_configuration:
-- section: session
-  option: timeout
-  value: 3600
+  - section: session
+    option: timeout
+    value: 3600
 
 bareos_webui_directors: []
 ```
