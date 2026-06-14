@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.0](https://github.com/buluma/ansible-role-bareos_webui/tree/26.6.0) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-bareos_webui/compare/0.0.1...26.6.0)
+
 ## [0.0.1](https://github.com/buluma/ansible-role-bareos_webui/tree/0.0.1) (2023-12-23)
 
 [Full Changelog](https://github.com/buluma/ansible-role-bareos_webui/compare/5f43ffbfb63530ddab95dff5ab294b545b95355c...0.0.1)
