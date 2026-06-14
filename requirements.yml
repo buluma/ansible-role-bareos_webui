@@ -3,6 +3,6 @@ roles:
   - name: buluma.bootstrap
   - name: buluma.bareos_repository
     src: https://github.com/buluma/ansible-role-bareos_repository.git
-collections: []
+collections:
   - name: ansible.posix
   - name: community.general
