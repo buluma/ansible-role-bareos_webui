@@ -7,6 +7,14 @@
   run_once: true
   delegate_to: localhost
 
+- name: Ensure /run/lock exists
+  ansible.builtin.file:
+    path: /run/lock
+    state: directory
+    mode: "1777"
+  when:
+    - ansible_facts['os_family'] == "Debian"
+
 - name: Install requirements
   ansible.builtin.package:
     name: "{{ bareos_webui_requirements }}"
